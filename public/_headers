@@ -1,0 +1,13 @@
+# Cloudflare Pages: cabeçalhos HTTP
+# Arquivos em /assets/ ficam em cache por 1 ano. Ao alterar site.css ou menu.js,
+# aumente o ?v= nos <link>/<script> de todas as páginas; ao trocar uma foto,
+# salve com um nome novo.
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
