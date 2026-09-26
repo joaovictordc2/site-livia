@@ -36,9 +36,13 @@ Cloudflare → Workers & Pages → Create → Pages → *Upload assets* → arra
 
 Depois, em *Custom domains*, conecte o domínio próprio, se houver.
 
+## Endereços
+
+- **Distribuidora:** Rua Leão de Judá, nº 10, Mirante de Jandira, Jandira/SP (Início e rodapé).
+- **Salão:** Rua Leopoldina de Camargo, nº 110, Itapevi/SP (página Salão).
+
 ## Pendências (confirmar com a cliente antes de publicar)
 
-- **Endereço do salão.** Em `public/salao/index.html` há `[Endereço do salão]` e o botão "Abrir no mapa" aponta para o Google Maps genérico (procure por `PENDENTE`).
 - **Revisão dos textos:** serviços, formatos de curso, bio, horários, marcas distribuídas.
 - **Local dos cursos.**
 - **Domínio.** Quando o endereço definitivo do site existir, trocar `og:image` para URL absoluta (ex.: `https://dominio/assets/img/og-livia-novais.jpg`), incluir `og:url`/`canonical` e um `sitemap.xml`.
