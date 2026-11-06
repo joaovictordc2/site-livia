@@ -6,7 +6,7 @@
 
   var closeBtn = menu.querySelector('.menu__close');
   var root = document.documentElement;
-  var wide = window.matchMedia('(min-width: 880px)');
+  var wide = window.matchMedia('(min-width: 960px)');
 
   // Tudo o que fica atrás do menu deixa de receber foco enquanto ele está aberto.
   function setBackgroundInert(on) {
